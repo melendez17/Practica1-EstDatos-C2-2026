@@ -22,7 +22,7 @@ El sistema está dividido en dos módulos principales:
 ### Modo Administrador
 
 - Ver el ticket con mayor prioridad (frente de la cola)
-- Resolver el siguiente ticket en cola
+- Resolver el primer ticket en cola
 - Ver todos los tickets pendientes
 
 ---
@@ -31,7 +31,7 @@ El sistema está dividido en dos módulos principales:
 
 ### Cola de Prioridad (ColaPrioridad)
 
-- Organiza los tickets según su nivel de prioridad (3 > 2 > 1)
+- Organiza los tickets según su nivel de prioridad (3 (alta) > 2 > 1 (baja))
 - Permite insertar, ver frente, resolver y listar tickets
 
 ### Lista Enlazada (ListaTicketsResueltos)
